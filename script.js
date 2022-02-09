@@ -77,3 +77,8 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
